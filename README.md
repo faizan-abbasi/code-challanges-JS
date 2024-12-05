@@ -1,1 +1,1 @@
-﻿# Trying to Solving Code Problems With JavaScript
+﻿# Exploring and Solving Code Problems with JavaScript
