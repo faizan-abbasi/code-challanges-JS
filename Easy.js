@@ -29,3 +29,16 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 console.log(factorial(5));
+
+// Find the Largest number in the array
+function maxNoOfArray(n) {
+  let max = 0;
+  for (let i = 0; i < n.length; i++) {
+    if (max < n[i]) {
+      max = n[i];
+    }
+  }
+  return max;
+}
+let max_check_arr = [10, 195, 100, 2, 25];
+console.log("Largest number is : ", maxNoOfArray(max_check_arr));
